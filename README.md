@@ -10,14 +10,14 @@ The user can just input in a box a series of geographical coordinates in decimal
 
 * But in the box, the user can input several such coordinates, in different rows, such as:
 
-* 52.2807    10.5488
-* 52.3465    11.3456
-* 52.1234    -9.3322
-* 52.3789    8.1234
+ 52.2807    10.5488
+ 52.3465    11.3456
+ 52.1234    -9.3322
+ 52.3789    8.1234
 
-* and so on.
+ and so on.
 
-* Then the program transform this into a .klm file that specifies the coordinates each as a point, and if imported in Google Earth, one sees all the points.
+* Then the program transform this into a .kml file that specifies the coordinates each as a point, and if imported in Google Earth, one sees all the points.
 
 * Here is the information on the kml syntax which is a kind of xml:
 * https://en.wikipedia.org/wiki/Keyhole_Markup_Language
