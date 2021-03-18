@@ -10,10 +10,10 @@ The user can just input in a box a series of geographical coordinates in decimal
 
 * But in the box, the user can input several such coordinates, in different rows, such as:
 
- 52.2807    10.5488
- 52.3465    11.3456
- 52.1234    -9.3322
- 52.3789    8.1234
+ * 52.2807    10.5488
+ * 52.3465    11.3456
+ * 52.1234    -9.3322
+ * 52.3789    8.1234
 
  and so on.
 
