@@ -243,8 +243,12 @@ class Main(QDialog, FORM_CLASS):
             name= name.split(".")[-1]
 
             if name == 'html':
-                self.state_changed1()
-                self.m_output.load(QUrl().fromLocalFile(os.path.join(self.temporary.name, self.launcher.result_files['file_name']+ ".html")))
+                import webbrowser
+                new = 2
+                xx= os.path.join(self.temporary.name, self.launcher.result_files['file_name']+ ".html")
+                
+                url = f"file://{xx}"
+                webbrowser.open(url,new=new)
 
 
             if name == 'kml':
